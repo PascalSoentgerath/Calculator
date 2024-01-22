@@ -62,11 +62,11 @@ main {
 }
 
 .calc,
-.delete-btn {
+.delete {
     height: 25px;
 }
 
-.delete-btn {
+.delete {
     order: 12;
 }
 
@@ -85,7 +85,7 @@ main {
 
 .number,
 .calc,
-.delete-btn,
+.delete,
 .opp {
     flex-basis: 33%;
     max-width: 80px;
