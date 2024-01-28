@@ -31,7 +31,6 @@ main {
     align-self: stretch;
     border: 3px solid black;
     min-height: 125px;
-    max-width: 420px;
     padding: 15px;
     padding-top: 35px;
     text-align: end;
@@ -42,7 +41,6 @@ main {
 
 .button-container {
     display: flex;
-    justify-content: flex-start;
     padding: 15px;
 }
 
@@ -51,7 +49,7 @@ main {
     flex-direction: row-reverse;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 7.5px;
     flex-basis: 75%;
 }
 
@@ -75,20 +73,26 @@ main {
 }
 
 .opps {
+    flex-basis: 25%;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    align-self: flex-end;
-    flex-basis: 25%;
-    gap: 15px;
+    align-items: center;
 }
 
 .number,
 .calc,
-.delete,
-.opp {
+.delete {
     flex-basis: 33%;
     max-width: 80px;
-    min-height: 56px;
+    height: 56px;
     font-size: 20px;
+}
+
+.opp {
+    height: 56px;
+    width: 80px;
+}
+
+.opp:last-of-type {
+    margin-bottom: 0;
 }
